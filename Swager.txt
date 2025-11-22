@@ -1,0 +1,1 @@
+https://dotrezapi.test.6e.navitaire.com/swagger/index.html#/boarding
