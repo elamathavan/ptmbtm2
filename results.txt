@@ -1,0 +1,222 @@
+{
+  "data": [
+    {
+      "date": "2025-11-22T18:18:25.152Z",
+      "journeys": [
+        {
+          "designator": {
+            "destination": "str",
+            "origin": "str",
+            "arrival": "2025-11-22T18:18:25.152Z",
+            "departure": "2025-11-22T18:18:25.152Z"
+          },
+          "tripKey": "string",
+          "segments": [
+            {
+              "isSeatmapViewable": true,
+              "identifier": {
+                "identifier": "stri",
+                "carrierCode": "str",
+                "opSuffix": "s"
+              },
+              "externalIdentifier": {
+                "identifier": "stri",
+                "carrierCode": "str",
+                "opSuffix": "s"
+              },
+              "segmentType": 0,
+              "designator": {
+                "destination": "str",
+                "origin": "str",
+                "arrival": "2025-11-22T18:18:25.152Z",
+                "departure": "2025-11-22T18:18:25.152Z"
+              },
+              "segmentKey": "string",
+              "legs": [
+                {
+                  "legKey": "string",
+                  "designator": {
+                    "destination": "str",
+                    "origin": "str",
+                    "arrival": "2025-11-22T18:18:25.152Z",
+                    "departure": "2025-11-22T18:18:25.152Z"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [
+    {
+      "exception": {
+        "Message": "string",
+        "InnerException": "string",
+        "Source": "string",
+        "StackTrace": "string"
+      },
+      "rawMessage": "string",
+      "code": "string",
+      "message": "string",
+      "type": "string",
+      "number": 99999,
+      "details": {
+        "additionalProp1": "string",
+        "additionalProp2": "string",
+        "additionalProp3": "string"
+      },
+      "ActivityId": "string"
+    }
+  ],
+  "messages": [
+    {
+      "code": "string",
+      "type": "string",
+      "value": "string",
+      "status": 0,
+      "details": {
+        "additionalProp1": "string",
+        "additionalProp2": "string",
+        "additionalProp3": "string"
+      }
+    }
+  ]
+}
+output:
+{
+  "data": {
+    "passengers": [
+      {
+        "balanceDue": true,
+        "userKey": "Nzk3MTZ-",
+        "personKey": "MA--",
+        "passengerAlternateKey": "NML4Tgw",
+        "passengerKey": "MCFBRFQ-",
+        "checkInType": 0,
+        "customerNumber": "888888888",
+        "discountCode": null,
+        "infant": null,
+        "name": {
+          "first": "First",
+          "middle": "Middle",
+          "last": "Last",
+          "title": "MR",
+          "suffix": null
+        },
+        "paidStatus": 0,
+        "profileStatus": 0,
+        "program": null,
+        "recordLocator": "R35N2F",
+        "sourcePointOfSale": {
+          "agentCode": "agent",
+          "domainCode": "EXT",
+          "locationCode": "WWW",
+          "organizationCode": "88887777"
+        },
+        "bookingStatus": 0,
+        "passengerInformation": {
+          "nationality": "US",
+          "residentCountry": "US",
+          "gender": 1,
+          "dateOfBirth": "0001-01-01T00:00:00",
+          "familyNumber": null
+        },
+        "type": "ADT",
+        "bookingDate": "2025-11-13T19:11:56.4836579+00:00",
+        "soldDate": "2025-11-13T19:11:56.4836816+00:00",
+        "journey": {
+          "customerRecognition": {
+            "code": null,
+            "points": 0
+          },
+          "segmentCount": 1,
+          "segment": {
+            "segmentKey": null,
+            "bookingStatus": "HK",
+            "changeReason": 0,
+            "classOfService": "N",
+            "fareBasisCode": "NNNN",
+            "leg": {
+              "boardingSequence": 0,
+              "boardingZone": 3,
+              "compartmentDesignator": "E",
+              "legNumber": 1,
+              "liftStatus": 0,
+              "priorityCode": null,
+              "priorityDate": "2025-11-13T19:11:56.4838931+00:00",
+              "unitAssignmentWeight": 0,
+              "unitDesignator": "1D",
+              "manifestLegKey": "NjM4ODIzNDU2MDAwMDAwMDAwIU5WITU2MjUhICFERU4hU0xD"
+            },
+            "productClassCode": "EC",
+            "seatProperties": [],
+            "soldDate": "2025-11-13T19:11:56.4839641+00:00",
+            "ticketIndicator": null,
+            "ticketNumber": null,
+            "upgradeIndicator": false,
+            "externalIdentifier": null,
+            "legCount": 1,
+            "segmentType": 0,
+            "manifestSegmentKey": "NjM4ODIzNDU2MDAwMDAwMDAwIU5WITU2MjUhICFERU4hU0xD"
+          },
+          "changeReason": 0
+        }
+      }
+    ],
+    "cabinPassengerCounts": [
+      {
+        "classRank": 0,
+        "checkedIn": 0,
+        "cabinOfService": "F",
+        "clearedStandBy": 0,
+        "clearedThruStandby": 0,
+        "manifested": 0,
+        "noShow": 0,
+        "standBy": 0,
+        "thruCheckedIn": 0,
+        "thruManifested": 0,
+        "thruNoShow": 0,
+        "thruStandBy": 0,
+        "totalCheckedIn": 0,
+        "totalOnBoard": 0
+      }
+    ],
+    "inventoryLegCrossReferences": [
+      {
+        "legKey": "NjM4NjQ4NLQ1NSMxNCBlNSNwIUpCITExMTEhICFTTEMhQk9TITMwMTM3NTM-",
+        "number": 1,
+        "marketInformation": {
+          "identifier": {
+            "identifier": "5600",
+            "carrierCode": "NV",
+            "opSuffix": null
+          },
+          "destination": "BOS",
+          "origin": "SLC",
+          "departureDate": "2025-11-13T19:11:56.484105+00:00"
+        }
+      }
+    ],
+    "passengerCounts": {
+      "checkedIn": 0,
+      "clearedStandBy": 0,
+      "clearedThruStandby": 0,
+      "manifested": 1,
+      "noShow": 1,
+      "standBy": 0,
+      "thruCheckedIn": 0,
+      "thruManifested": 0,
+      "thruNoShow": 0,
+      "thruStandBy": 0,
+      "totalCheckedIn": 0,
+      "totalOnBoard": 0
+    },
+    "checkInLid": 810,
+    "codeShareIndicator": null,
+    "operatedByText": null,
+    "operatingIdentifier": null,
+    "legStatus": 0
+  }
+}
