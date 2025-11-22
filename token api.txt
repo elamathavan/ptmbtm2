@@ -1,0 +1,12 @@
+https://nsk-dotrezapi-nonprod-3scale-apicast-production.apps.ocpnonprodcl01.goindigo.in/api/nsk/v2/token
+
+b0038a28b62f1e7c5bab9e869757e7b6
+
+{
+  "credentials": {
+    "username": "OPSFLIFOApp",
+    "password": "Indigo$789",
+    "domain": "EXT",
+    "ChannelType":"Direct"
+  }
+}
